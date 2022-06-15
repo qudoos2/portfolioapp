@@ -10,7 +10,6 @@ export default function AboutMe(props) {
   };
   const fadeInSubscription =
     Scroolservice.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
   const SCREEN_CONSTANTS = {
     description:
       "Frontend Developer with Knowledge of MERN Stack with Redux along with a knock of building applications with utmost efficency.",
